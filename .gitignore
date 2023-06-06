@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+/bin/
+/alembic/versions/b69a1fce9abe_new_migration.py
+/lib/
+/test.py
+.idea
+__pycache__

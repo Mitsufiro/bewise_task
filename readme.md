@@ -37,7 +37,7 @@
 
 `docker exec app alembic upgrade head`
 
-
+ 
 ## Finally:
 
 • Swagger.

@@ -25,4 +25,10 @@ def get_data(q_count):
         db.session.commit()
         counter += 1
         print(counter, question['id'])
-    return db.session.query(QuestionModel).all()
+    response = db.session.query(QuestionModel).all()[-1]
+    return f'Крайний сохраненный вопрос:', response
+
+
+def all_data_in_db():
+    response = db.session.query(QuestionModel).all()
+    return response
